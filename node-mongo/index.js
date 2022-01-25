@@ -12,7 +12,6 @@ MongoClient.connect(url, (err, client) => {
     console.log('Connected correctly to server');
 
     const db = client.db(dbname);
-    const collection = db.collection("dishes");
 
     dboper.insertDocument(db, { name: "Vadonut", description: "Test" },
         "dishes", (result) => {
@@ -29,11 +28,11 @@ MongoClient.connect(url, (err, client) => {
                         dboper.findDocuments(db, "dishes", (docs) => {
                             console.log("Found Updated Documents:\n", docs);
 
-                            //db.dropCollection("dishes", (result) => {
-                            //    console.log("Dropped Collection: ", result);
+                            db.dropCollection("dishes", (result) => {
+                                console.log("Dropped Collection: ", result);
 
-                            client.close();
-                            // });
+                                client.close();
+                            });
                         });
                     });
             });
@@ -42,6 +41,7 @@ MongoClient.connect(url, (err, client) => {
 });
 
 /**
+ * const collection = db.collection("dishes");
  * collection.insertOne({ "name": "Uthappizza", "description": "test" },
         (err, result) => {
             assert.equal(err, null);
@@ -63,4 +63,8 @@ MongoClient.connect(url, (err, client) => {
             });
         });
  * 
+         dboper.insertDocument(db, { name: "Pasta", description: "mama mia" },
+        "dishes", (result) => {
+            console.log("Insert Document:\n", result.ops);
+        });
  */
