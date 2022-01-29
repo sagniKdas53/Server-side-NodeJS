@@ -1,0 +1,54 @@
+The disableGPU setting is set to undefined
+Not disabling GPU
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+1643268312283 main info "Booting Postman 9.9.3, linux-5.4.0-89-generic on x64"
+1643268312293 main info "EventBus~initialize - Success"
+1643268312377 main info "Proxy configuration has not been setup"
+1643268312378 main info "CloudProxyManager~init - Success"
+1643268312387 main info "UpdateHandler~init - Success"
+1643268315247 main info "RuntimeIPCAgent~started: Success"
+1643268315302 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+1643268315307 main info "LeaderSelection: Initialized successfully"
+1643268315804 main info "Bootstrap-models~bootstrap - Success"
+1643268317409 main info "GPU detected VID 4318 DID 4941 ACTIVE true"
+1643268317410 main info "GPU detected VID 32902 DID 22806 ACTIVE false"
+1643268319021 main info "window-manager~newSharedWindow: Shell loaded"
+1643268325486 main info "UpdateHandler~app-update-events - Received event",{"name":"checkForElectronVersionUpdated","namespace":"appUpdate"}
+INTERCEPTOR CONNECTIVITY: Connecting to Interceptor Bridge
+InterceptorBridge: Trying to connect Native App IPC~Interceptor Bridge
+IPCClient ~ WindowHandler: New event is received { type: 'window-opened' }
+1643268325558 main info "Main~AppEvents - Received booted event for process requester"
+1643268325559 main info "windowManager: First requester booted successfully."
+1643268325560 main info "windowManager~restoreWindows: Restoring requester windows"
+1643268336598 main info "UpdateHandler~app-update-events - Received event",{"name":"updateElectron","namespace":"appUpdate","data":{"channel":"stable","version":"9.9.3","downloadVersion":"9.10.1","appId":"3a8476be-edac-40a2-85f1-5e5c701b4e5c","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/9.9.3 Chrome/91.0.4472.164 Electron/13.4.0 Safari/537.36","platform":"LINUX","arch":"64","downloadURL":"https://dl.pstmn.io/download/version/9.10.1/linux_64","updateServerDomain":"https://dl.pstmn.io/","additionalParamsString":"installationId=3a8476be-edac-40a2-85f1-5e5c701b4e5c&userId=12622376&syncEnabled=true&teamPlan=&teamId=0","userId":"12622376"}}
+1643268336600 main info "LinuxUpdater~downloadUpdate - UpdateInfo received",{"channel":"stable","version":"9.9.3","downloadVersion":"9.10.1","appId":"3a8476be-edac-40a2-85f1-5e5c701b4e5c","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/9.9.3 Chrome/91.0.4472.164 Electron/13.4.0 Safari/537.36","platform":"LINUX","arch":"64","downloadURL":"https://dl.pstmn.io/download/version/9.10.1/linux_64","updateServerDomain":"https://dl.pstmn.io/","additionalParamsString":"installationId=3a8476be-edac-40a2-85f1-5e5c701b4e5c&userId=12622376&syncEnabled=true&teamPlan=&teamId=0","userId":"12622376"}
+1643268337051 main info "WindowManager~closeHandler - Closed Window (id: 3 )"
+IPCClient ~ WindowHandler: New event is received { type: 'window-closed', windowId: 3 }
+1643268337113 main info "Quitting app"
+The disableGPU setting is set to undefined
+Not disabling GPU
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+1643268386046 main info "Booting Postman 9.9.3, linux-5.4.0-89-generic on x64"
+1643268386048 main info "EventBus~initialize - Success"
+1643268386049 main info "Proxy configuration has not been setup"
+1643268386050 main info "CloudProxyManager~init - Success"
+1643268386057 main info "UpdateHandler~init - Success"
+1643268386376 main info "RuntimeIPCAgent~started: Success"
+1643268386377 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+1643268386378 main info "LeaderSelection: Initialized successfully"
+1643268386527 main info "Bootstrap-models~bootstrap - Success"
+1643268386676 main info "GPU detected VID 4318 DID 4941 ACTIVE true"
+1643268386676 main info "GPU detected VID 32902 DID 22806 ACTIVE false"
+1643268386859 main info "window-manager~newSharedWindow: Shell loaded"
+1643268392809 main info "UpdateHandler~app-update-events - Received event",{"name":"checkForElectronVersionUpdated","namespace":"appUpdate"}
+INTERCEPTOR CONNECTIVITY: Connecting to Interceptor Bridge
+InterceptorBridge: Trying to connect Native App IPC~Interceptor Bridge
+IPCClient ~ WindowHandler: New event is received { type: 'window-opened' }
+1643268392862 main info "Main~AppEvents - Received booted event for process requester"
+1643268392862 main info "windowManager: First requester booted successfully."
+1643268392863 main info "windowManager~restoreWindows: Restoring requester windows"
+1643268403852 main info "UpdateHandler~app-update-events - Received event",{"name":"updateElectron","namespace":"appUpdate","data":{"channel":"stable","version":"9.9.3","downloadVersion":"9.10.1","appId":"3a8476be-edac-40a2-85f1-5e5c701b4e5c","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/9.9.3 Chrome/91.0.4472.164 Electron/13.4.0 Safari/537.36","platform":"LINUX","arch":"64","downloadURL":"https://dl.pstmn.io/download/version/9.10.1/linux_64","updateServerDomain":"https://dl.pstmn.io/","additionalParamsString":"installationId=3a8476be-edac-40a2-85f1-5e5c701b4e5c&userId=12622376&syncEnabled=true&teamPlan=&teamId=0","userId":"12622376"}}
+1643268403853 main info "LinuxUpdater~downloadUpdate - UpdateInfo received",{"channel":"stable","version":"9.9.3","downloadVersion":"9.10.1","appId":"3a8476be-edac-40a2-85f1-5e5c701b4e5c","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/9.9.3 Chrome/91.0.4472.164 Electron/13.4.0 Safari/537.36","platform":"LINUX","arch":"64","downloadURL":"https://dl.pstmn.io/download/version/9.10.1/linux_64","updateServerDomain":"https://dl.pstmn.io/","additionalParamsString":"installationId=3a8476be-edac-40a2-85f1-5e5c701b4e5c&userId=12622376&syncEnabled=true&teamPlan=&teamId=0","userId":"12622376"}
+1643268404494 main info "@postman/app-updater: error",{"errno":-13,"code":"EACCES","syscall":"open","path":"/usr/bin/Postman/Postman-1643268403854.tar.gz","name":"Error","message":"EACCES: permission denied, open '/usr/bin/Postman/Postman-1643268403854.tar.gz'","stack":"Error: EACCES: permission denied, open '/usr/bin/Postman/Postman-1643268403854.tar.gz'"},{"packageName":"Postman","eID":"Postman-1643268403854","downloadURL":"https://dl.pstmn.io/download/version/9.10.1/linux_64","downloadDirectory":"/usr/bin/Postman","downloadInfo":{"status":"DOWNLOAD_ERROR","error":{"errno":-13,"code":"EACCES","syscall":"open","path":"/usr/bin/Postman/Postman-1643268403854.tar.gz"},"downloadDirectory":"/usr/bin/Postman"}}
+1643268404495 main info "UpdateHandler~app-update-events - Received event",{"name":"electronAppUpdateError","namespace":"appUpdate","data":{"error":{"errno":-13,"code":"EACCES","syscall":"open","path":"/usr/bin/Postman/Postman-1643268403854.tar.gz","name":"Error","message":"EACCES: permission denied, open '/usr/bin/Postman/Postman-1643268403854.tar.gz'","stack":"Error: EACCES: permission denied, open '/usr/bin/Postman/Postman-1643268403854.tar.gz'"},"updateData":{"packageName":"Postman","eID":"Postman-1643268403854","downloadURL":"https://dl.pstmn.io/download/version/9.10.1/linux_64","downloadDirectory":"/usr/bin/Postman","downloadInfo":{"status":"DOWNLOAD_ERROR","error":{"errno":-13,"code":"EACCES","syscall":"open","path":"/usr/bin/Postman/Postman-1643268403854.tar.gz"},"downloadDirectory":"/usr/bin/Postman"}}}}
+1643268517860 main info "Quitting app"
