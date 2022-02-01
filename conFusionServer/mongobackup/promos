@@ -32,21 +32,4 @@
     "$date": "2022-01-27T08:04:59.047Z"
   },
   "__v": 0
-},{
-  "_id": {
-    "$oid": "61f252f4533fd650d77defac"
-  },
-  "label": "",
-  "featured": true,
-  "name": "No Label Grand Buffet",
-  "image": "images/buffet.png",
-  "price": 1999,
-  "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person ",
-  "createdAt": {
-    "$date": "2022-01-27T08:08:20.560Z"
-  },
-  "updatedAt": {
-    "$date": "2022-01-27T08:08:20.560Z"
-  },
-  "__v": 0
 }]
