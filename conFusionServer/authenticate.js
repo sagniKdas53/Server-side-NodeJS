@@ -38,14 +38,18 @@ exports.jwtPassport = passport.use(new JwtStrategy(opts,
 
 exports.verifyUser = passport.authenticate('jwt', { session: false });
 
-exports.verifyAdmin = (req, res, err) => {
-    if (req.user.admin) {
-        return next();
-    }
-    else {
-        var err = new Error('You are not authorized to perform this operation!');
-        err.status = 403;
-        res.json({ err: err });
-        return next(err);
-    }
-};
+exports.verifyAdmin = function (req, res, next) {
+    User.findOne({ _id: req.user._id })
+        .then((user) => {
+            console.log("User: ", req.user);
+            if (user.admin) {
+                next();
+            }
+            else {
+                err = new Error('You are not authorized to perform this operation!');
+                err.status = 403;
+                return next(err);
+            }
+        }, (err) => next(err))
+        .catch((err) => next(err))
+}

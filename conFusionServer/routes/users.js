@@ -7,12 +7,12 @@ var passport = require('passport');
 var authenticate = require('../authenticate');
 
 /* GET users listing. */
-router.route('/').get(authenticate.verifyUser, authenticate.verifyAdmin, (req, res, next) => {
+router.get('/', authenticate.verifyUser, authenticate.verifyAdmin, (req, res, next) => {
   User.find({})
-    .then((Users) => {
+    .then((users) => {
       res.statusCode = 200;
       res.setHeader('Content-Type', 'application/json');
-      res.json(Users);
+      res.json(users);
     }, (err) => next(err))
     .catch((err) => next(err));
 });
