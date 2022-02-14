@@ -7,7 +7,6 @@ const mongoose = require('mongoose');
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
 var passport = require('passport');
-var authenticate = require('./authenticate');
 var config = require('./config');
 const url = config.mongoUrl;
 const connect = mongoose.connect(url);
